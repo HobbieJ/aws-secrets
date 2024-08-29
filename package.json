@@ -1,5 +1,5 @@
 {
-  "name": "cli-secret-to-env-aws",
+  "name": "@hobbiej/aws-secrets",
   "version": "1.0.0",
   "description": "Downloads .env files from AWS Secret Manager",
   "type": "module",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "cli-secret-to-env-aws": "./index.js"
+    "aws-secrets": "./index.js"
   },
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "^3.629.0",
