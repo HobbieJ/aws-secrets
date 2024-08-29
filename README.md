@@ -1,6 +1,6 @@
 # AWS Secrets
-## An easy way to grab project secrets from AWS' Secret Manager
-by Jacob Hobbie
+An easy way to grab project secrets from AWS' Secret Manager
+Made with ❤️ by Jacob Hobbie
 
 ### About
 Basically, I wanted to create an easier and safer system for grabbing `.env` credentials for projects my team used. I only later figured out how many of these clients already existed out in the internet after I started, so here's another one, and I hope you like it.
@@ -12,7 +12,7 @@ key='value'
 
 ### Install
 ```zsh
-npm install -g aws-secret-to-env
+npm install -g @hobbiej/aws-secrets
 ```
 
 ### Setup
