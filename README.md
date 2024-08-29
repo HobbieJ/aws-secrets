@@ -1,4 +1,4 @@
-# AWS Secrets CLI
+# CLI Tool: Secret Manager to ENV for AWS
 ## An easy way to grab project secrets from AWS' Secret Manager
 
 ### About
@@ -10,8 +10,8 @@ key='value'
 ```
 
 ### Install
-```
-npm install -g aws-secrets
+```zsh
+npm install -g aws-secret-to-env
 ```
 
 ### Setup
@@ -20,7 +20,7 @@ You will need to have the AWS CLI installed on your machine for this program to 
 You will also need to set up the CLI so that you are logged into your AWS instance through the CLI. You can find the instructions on how to set up the CLI [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html).
 
 ### Usage
-```
+```zsh
 aws-secrets -p [project]
 // Example
 aws-secrets -p test-project
