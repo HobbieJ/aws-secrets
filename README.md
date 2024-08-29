@@ -1,5 +1,4 @@
 # AWS Secrets
-An easy way to grab project secrets from AWS' Secret Manager
 Made with ❤️ by Jacob Hobbie
 
 ### About
