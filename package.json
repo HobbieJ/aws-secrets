@@ -1,11 +1,19 @@
 {
   "name": "@hobbiej/aws-secrets",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Downloads .env files from AWS Secret Manager",
   "type": "module",
   "author": "Jacob Hobbie",
   "license": "MIT",
   "preferGlobal": true,
+  "keywords": [
+    "cli",
+    "node",
+    "nodejs",
+    "aws",
+    "secret",
+    "secrets"
+  ],
   "bin": {
     "aws-secrets": "./index.js"
   },
